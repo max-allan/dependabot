@@ -12,7 +12,7 @@ registries:
     username: _token
 updates:
   - package-ecosystem: "docker" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/" # Location of package manifests.
     registries: 
       - chainguard
     schedule:
