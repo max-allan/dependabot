@@ -8,8 +8,8 @@ registries:
   chainguard:
     type: docker-registry
     url: cgr.dev
-    password: ${{secrets.CGRTOK}}
-    username: _token
+    token: ${{secrets.CGRTOK}}
+    # username: _token
 updates:
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/" # Location of package manifests.
