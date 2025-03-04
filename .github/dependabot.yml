@@ -13,6 +13,7 @@ registries:
 updates:
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/" # Location of package manifests
-    registries: chainguard
+    registries: 
+      - chainguard
     schedule:
       interval: "weekly"
